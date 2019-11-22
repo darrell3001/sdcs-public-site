@@ -7,7 +7,7 @@ import './HelloWorld.scss';
 
 export default function HelloWorld() {
   return (
-    <div>
+    <div className='hello-world-container'>
       <Helmet>
         <title>Hello World!</title>
       </Helmet>
@@ -15,7 +15,7 @@ export default function HelloWorld() {
       <p style={{ textAlign: 'center' }}>
       This is an ordinary react component.
         <br />
-        <Link to="/codeSplit">Click here</Link> to see a code-split component.
+        <Link to="/codeSplit">Click here to see Nyan Cat rendered in a code-split component.</Link> 
       </p>
     </div>);
 }

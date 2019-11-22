@@ -1,27 +1,30 @@
-// Main component of our application.
-// We setup react-helmet, which let us nicely manage our <head />
-// It's a nice library you should use!
+import React from "react";
+import importedComponent from "react-imported-component";
+import { Helmet } from "react-helmet";
+import { Switch, Route, Redirect } from "react-router-dom";
 
-import React from 'react';
-import importedComponent from 'react-imported-component';
-import { Helmet } from 'react-helmet';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HelloWorld from "./HelloWorld";
 
-import HelloWorld from './HelloWorld';
+import "./css/styles.scss";
 
-const HelloWorld2 = importedComponent(() => import('./HelloWorld2'));
+const HelloWorld2 = importedComponent(() => import("./HelloWorld2"));
 
 export default function App() {
   return (
-    <div>
-      <Helmet defaultTitle="Hello World!">
+    <div className="app-container">
+      <Helmet defaultTitle="SDCS">
         <meta charSet="utf-8" />
       </Helmet>
+      <Header />
+      <div className="spacer"></div>
       <Switch>
         <Route exact path="/" component={HelloWorld} />
         <Route exact path="/codeSplit" component={HelloWorld2} />
-        <Redirect to="/" />
+        <Redirect to="/"/>
       </Switch>
+      <Footer />
     </div>
   );
 }

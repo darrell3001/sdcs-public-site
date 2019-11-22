@@ -11,7 +11,7 @@ export default class Nyan extends Component {
 
   render() {
     return (
-      <div>
+      <div className="hello-world-container">
         <Helmet>
           <title>Code Split</title>
         </Helmet>
