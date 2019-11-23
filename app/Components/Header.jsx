@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 export default class Header extends Component {
@@ -20,10 +21,10 @@ export default class Header extends Component {
 
   render() {
     return (
-      <div className="header">
+      <div className="header" style={{ display: this.props.display }}>
         <div className="header-navbar-container">
           <div className="header-logo">
-            <img src={require("../img/sdcs-logo.png")} alt="SDCS LOGO" />
+            <img src="/img/sdcs-logo.png" alt="SDCS LOGO" />
           </div>
           <div className="header-navbar">
             <ul>
@@ -108,3 +109,7 @@ export default class Header extends Component {
     );
   }
 }
+
+Header.propTypes = {
+  display: PropTypes.string
+};
