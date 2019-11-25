@@ -24,13 +24,16 @@ By seperating your pages into sub sections you not only make them reusable but y
 > And the power of classNames is that you can have multiple.
 
 The `styles.scss` imports the following three `.scss` files.
-1. styles.scss
- - fonts.scss
- - header.scss
- - footer.scss
+```           
+              - fonts.scss
+styles.scss{  - header.scss
+              - footer.scss
 
+```
+
+
+- `fonts.scss` we felt it a good idea to put a file like this out of the way. Once it is written it will be unlikely to be every visited again unless another font is added.
 - `styles.scss` contains all general className styles.
-- `fonts.scss` its a good idea to put a file like this out of the way. Once it is written it will be unlikely to be every visited again unless another font is added.
 
 
 While the header and footer were defined in their own files a change in css architecture lead to a generouse use of classnames to create a less restrictive css structure. Nesting scss style objects is cool but it should only be used as a way to dial in on elements rather then defining each property attribute in each object. General attributes are classNames which can be more fluidly added while tryping up the Components with jsx. An example of this to render an element with a diffrent font one simply changes the name to one of the three defined fonts from our styles.scss library this will over-rule any inhertance proprties that were set. If it is a battle between siblings then it will be the cascade rule:
