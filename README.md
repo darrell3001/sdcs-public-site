@@ -24,7 +24,7 @@ By seperating your pages into sub sections you not only make them reusable but y
 > And the power of classNames is that you can have multiple.
 
 The `styles.scss` imports the following three `.scss` files.
-- styles.scss
+1. styles.scss
  - fonts.scss
  - header.scss
  - footer.scss
