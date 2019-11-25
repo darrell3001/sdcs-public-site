@@ -4,8 +4,8 @@ import ClassBanner from "./Blocks/ClassBanner";
 import OurFrontEndProgram from "./Blocks/OurFrontEndProgram";
 import MichaelQuote from "./Blocks/MichaelQuote";
 import SuccessStories from "./Blocks/SuccessStories";
-import NeedMoreInfo from "./Blocks/NeedMoreInfo";
-import ReadyToBegin from "./Blocks/ReadyToBegin";
+import UnionTribune from "./Blocks/UnionTribune";
+import ReadyToBeginBanner from "./Blocks/ReadyToBeginBanner";
 
 export default class AboutUs extends Component {
   constructor(props) {
@@ -25,9 +25,11 @@ export default class AboutUs extends Component {
         <div className="spacer-md"></div>
         <SuccessStories />
         <div className="spacer-sm"></div>
-        <NeedMoreInfo />
+        <UnionTribune/>
+        <div className="spacer-sm"></div>
+        <ReadyToBeginBanner/>
         <div className="spacer-lg"></div>
-        <ReadyToBegin/>
+        <div className="spacer-sm"></div>
       </div>
     );
   }
