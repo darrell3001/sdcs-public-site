@@ -18,7 +18,7 @@ An example of each of these components are:
 - TypistLoop.jsx - Logic which produces the typing animation on the class banner.
 - Testimonials.jsx - An array of verbose objects
 
-By seperating your pages into sub sections you not only make them reusable but you will **make git workflow much easier.** Each of your team members will be able to work on seperate components on the same page and not have monster merges when its time to bring all your work back togethor on git. * *Trust me lol.* *
+By seperating your pages into sub sections you not only make them reusable but you will **make git workflow much easier.** Each of your team members will be able to work on seperate components on the same page and not have monster merges when its time to bring all your work back togethor on git. *Trust me lol.*
 
 ### You can import sass files to your main sass file.
 > You can have more then one className on elements
@@ -50,13 +50,13 @@ While the header and footer were defined in their own files a change in css arch
       0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 ```
-* *The below divs with render three diffrent font-styles.* *
+*The below divs will render three diffrent font-styles. *
 ```
 <div className="sdcs barlow">SAN DIEGO CODE SCHOOL</div>
 <div className="sdcs pt-sans">SAN DIEGO CODE SCHOOL</div>
 <div className="sdcs antic">SAN DIEGO CODE SCHOOL</div>
 ```
-* *To add a box-shadow I will simply call upon a defined style object called .box-shadow* *
+*To add a box-shadow I will simply call upon a defined style object called .box-shadow*
 ```
 <div className="sdcs barlow shadow">SAN DIEGO CODE SCHOOL</div>
 ```
