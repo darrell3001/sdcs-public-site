@@ -7,16 +7,21 @@ Hi, if your reading this then it is most likely that you too are students at SDC
 - It is recommended to test sites performance and accsesibility with [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en).
 
 ### React is component based so leverage it.
-Use a component to seperate large visual sections of the screen, complex logic and features which may potentially be reused, data arrays. an example of each of these components are:
+Use a component to seperate:
+- Large visual sections of the screen.
+- Complex logic and features which may potentially be reused.
+- Data arrays which would clog up the component that calls it.
 
-[]ClassBanner.jsx - A banner image with overlayed text.
-[]TypistLoop.jsx - Logic which produces the typing animation on the class banner.
-[]Testimonials.jsx - An array of verbose objects
+An example of each of these components are:
+
+- ClassBanner.jsx - A banner image with overlayed text.
+- TypistLoop.jsx - Logic which produces the typing animation on the class banner.
+- Testimonials.jsx - An array of verbose objects
 
 By seperating your pages into sub sections you not only make them reusable but you will **make git workflow much easier.** Each of your team members will be able to work on seperate components on the same page and not have monster merges when its time to bring all your work back togethor on git. * *Trust me lol.* *
 
 ### You can import sass files to your main sass file.
-#### You can have more then one className on elements
+> You can have more then one className on elements
 ```
                 header.scss
 styles.scss {   fonts.scss
