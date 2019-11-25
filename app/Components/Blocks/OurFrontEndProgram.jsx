@@ -18,7 +18,7 @@ export default function OurFrontEndProgram() {
                 ></img>
               </div>
             </div>
-            <h2 className="block-pad-top-xs">
+            <h2 className="">
               Intro to Web <span className="block"> Development</span>
             </h2>
             <p className="rm-browser-margin">
