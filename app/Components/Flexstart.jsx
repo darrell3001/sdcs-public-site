@@ -10,7 +10,9 @@ import NeedMoreInfo from "./Blocks/NeedMoreInfo";
 export default class Flexstart extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      testimonialLength: 6
+    };
   }
 
   componentDidMount() {

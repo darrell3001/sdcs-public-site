@@ -10,7 +10,9 @@ import ReadyToBeginBanner from "./Blocks/ReadyToBeginBanner";
 export default class AboutUs extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      testimonialLength: 14
+    };
   }
 
   render() {

@@ -1,8 +1,10 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 import Testimonials from "./Testimonials";
 
-export default function SuccessStories() {
+export default function SuccessStories(props) {
+  
   return (
     <div>
       <div className="text-align-center">
@@ -11,20 +13,18 @@ export default function SuccessStories() {
         </h1>
       </div>
       <div className="spacer-sm"></div>
-      <div className="testimonial-block-wrapper flex-wrap">
-        {Testimonials.slice(0, 6).map((test, i) => (
-          <div className="testimonial-block" key={i}>
-            <div className="testimonal-bubble talk-bubble shadow2">
-              <div className="talk-text">
-                <p className="rm-browser-margin">{test.testimonial}</p>
-              </div>
-            </div>
+      <div className="testimonial-block-wrapper flex-row-center">
+        {Testimonials.slice(0, props.testimonialLength).map((test, i) => (
+          <div className="testimonial-block flex-row-start shadow2" key={i}>
             <div className="testimonial-by flex-row-start">
-              <img src={test.img} alt=":)"></img>
+              <img className="shadow" src={test.img} alt=":)"></img>
               <div className="inline">
                 <span className="emphasised-text">{test.name}</span>
                 <span className="block">{test.title}</span>
               </div>
+            </div>
+            <div className="testimonal-bubble talk-bubble talk-text">
+              <p className="rm-browser-margin">{test.testimonial}</p>
             </div>
           </div>
         ))}
@@ -32,3 +32,7 @@ export default function SuccessStories() {
     </div>
   );
 }
+
+SuccessStories.propTypes= {
+  testimonialLength: PropTypes.number
+};

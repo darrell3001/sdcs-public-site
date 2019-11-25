@@ -8,7 +8,7 @@ export default function OurFrontEndProgram() {
       </div>
       <div className="card-block flex-wrap">
         <div className="scale card-bubble text-align-center shadow">
-          <div className="talk-text rm-top-padding text-align-center">
+          <div className="card-text rm-top-padding text-align-center">
             <div className="bookmark">
               <div className="circle-center flex-center shadow">
                 <img
@@ -30,7 +30,7 @@ export default function OurFrontEndProgram() {
         </div>
 
         <div className="scale card-bubble text-align-center shadow">
-          <div className="talk-text rm-top-padding text-align-center">
+          <div className="card-text rm-top-padding text-align-center">
             <div className="bookmark">
               <div className="circle-center flex-center shadow">
                 <img
@@ -52,7 +52,7 @@ export default function OurFrontEndProgram() {
         </div>
 
         <div className="scale card-bubble text-align-center shadow">
-          <div className="talk-text rm-top-padding text-align-center">
+          <div className="card-text rm-top-padding text-align-center">
             <div className="bookmark">
               <div className="circle-center flex-center shadow">
                 <img
