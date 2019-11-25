@@ -36,7 +36,7 @@ export default class App extends Component {
             <Route exact path="/" component={AboutUs} />
             <Route path="/AboutUs" component={AboutUs} />
             <Route path="/flexstart" render={ () => <Flexstart removeHeaderFooter={this.removeHeaderFooter}/> }/>
-            <Redirect to="/"/>
+            <Redirect to="/flexstart"/>
           </Switch>
           <Footer display={this.state.display}/>
       </div>

@@ -5,6 +5,7 @@ import OurFrontEndProgram from "./Blocks/OurFrontEndProgram";
 import MichaelQuote from "./Blocks/MichaelQuote";
 import SuccessStories from "./Blocks/SuccessStories";
 import NeedMoreInfo from "./Blocks/NeedMoreInfo";
+import ReadyToBegin from "./Blocks/ReadyToBegin";
 
 export default class AboutUs extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ export default class AboutUs extends Component {
         <div className="spacer-sm"></div>
         <NeedMoreInfo />
         <div className="spacer-lg"></div>
+        <ReadyToBegin/>
       </div>
     );
   }

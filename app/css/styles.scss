@@ -189,8 +189,11 @@ body {
   }
 }
 .shadow {
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  box-shadow: 
+    inset 
+      0 -3em 3em rgba(0, 0, 0, 0.1), 
+      0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .shadow2 {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px transparent,
@@ -245,14 +248,14 @@ body {
     }
   }
 }
-.duo-pillars {
+.two-columns {
   align-items: flex-start;
-  color: $theme-color-primary;
   padding: 20px 0;
+  background: lighten($theme-color-contrast, 5%);
+  color: $theme-color-primary;
   font-family: $accent-font;
   font-size: 22px;
-  background: lighten($theme-color-contrast, 5%);
-  & .uno-pillar {
+  & .column {
     width: 600px;
     letter-spacing: -0.5px;
     justify-content: center;
@@ -488,8 +491,8 @@ h4 {
   .form-container-mediaquery {
     display: inline-flex;
   }
-  .duo-pillars {
-    .uno-pillar {
+  .two-columns {
+    .column {
       .media525px-none {
         display: none;
       }

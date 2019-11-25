@@ -68,7 +68,7 @@ export default function OurFrontEndProgram() {
             <p className="rm-browser-margin">
               Complete a final project for your portfolio via an internship with
               a local company. Earn real world experience by building product
-              and adding value for a local San Diego business.{" "}
+              and adding value for a local San Diego business.
             </p>
           </div>
         </div>

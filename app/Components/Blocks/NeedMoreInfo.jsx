@@ -2,14 +2,14 @@ import React from "react";
 
 export default function SuccessStories() {
   return (
-    <div className="duo-pillars flex-wrap-closer top-bottom-border shadow">
-      <div className="uno-pillar text-align-center">
+    <div className="two-columns flex-wrap-closer top-bottom-border shadow">
+      <div className="column text-align-center">
         <h4 className="bold">NEED MORE INFO?</h4>
         <p className="rm-browser-margin">
           Call an advisor <span className="">619-320-8378</span> or leave us your email.
         </p>
       </div>
-      <div className="uno-pillar text-align-center">
+      <div className="column text-align-center">
         <p className="rm-browser-margin scope">
           We do not like spam. We will not share your email.
         </p>
