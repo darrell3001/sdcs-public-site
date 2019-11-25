@@ -32,7 +32,7 @@ styles.scss{  - header.scss
 ```
 
 
-- `fonts.scss` we felt it a good idea to put a file like this out of the way. Once it is written it will be unlikely to be every visited again unless another font is added.
+- `fonts.scss` we felt it a good idea to put a file like this out of the way. Once it is written it will be unlikely to be ever visited again unless another font is added.
 - `styles.scss` contains all general className styles.
 
 
