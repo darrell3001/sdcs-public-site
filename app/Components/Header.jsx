@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default class Header extends Component {
   constructor(props) {
@@ -29,25 +29,25 @@ export default class Header extends Component {
           <div className="header-navbar">
             <ul>
               <li className="menu-item">
-                <Link to="/">About Us</Link>
+                <NavLink to="/" activeClassName="selected">About Us</NavLink>
               </li>
               <li className="menu-item">
-                <Link to="/">Events</Link>
+                <NavLink to="/events" activeClassName="selected">Events</NavLink>
               </li>
               <li className="menu-item">
-                <Link to="/">Programs</Link>
+                <NavLink to="/programs" activeClassName="selected">Programs</NavLink>
               </li>
               <li className="menu-item">
-                <Link to="/">Tuition</Link>
+                <NavLink to="/tuition" activeClassName="selected">Tuition</NavLink>
               </li>
               <li className="menu-item">
-                <Link to="/">Schedule A Tour</Link>
+                <NavLink to="/tour" activeClassName="selected">Schedule A Tour</NavLink>
               </li>
               <li className="menu-item">
-                <Link to="/">Blog</Link>
+                <NavLink to="/blog" activeClassName="selected">Blog</NavLink>
               </li>
               <li className="menu-item">
-                <Link to="/">Apply</Link>
+                <NavLink to="/apply" activeClassName="selected">Apply</NavLink>
               </li>
             </ul>
           </div>
@@ -69,39 +69,39 @@ export default class Header extends Component {
         >
           <ul>
             <li className="menu-item">
-              <Link to="/" onClick={this.changeDisplay}>
+              <NavLink to="/" activeClassName="selected" onClick={this.changeDisplay}>
                 About Us
-              </Link>
+              </NavLink>
             </li>
             <li className="menu-item">
-              <Link to="/" onClick={this.changeDisplay}>
+              <NavLink to="/events" activeClassName="selected" onClick={this.changeDisplay}>
                 Events
-              </Link>
+              </NavLink>
             </li>
             <li className="menu-item">
-              <Link to="/" onClick={this.changeDisplay}>
+              <NavLink to="/programs" activeClassName="selected" onClick={this.changeDisplay}>
                 Programs
-              </Link>
+              </NavLink>
             </li>
             <li className="menu-item">
-              <Link to="/" onClick={this.changeDisplay}>
+              <NavLink to="/tuition" activeClassName="selected" onClick={this.changeDisplay}>
                 Tuition
-              </Link>
+              </NavLink>
             </li>
             <li className="menu-item">
-              <Link to="/" onClick={this.changeDisplay}>
+              <NavLink to="/tour" activeClassName="selected" onClick={this.changeDisplay}>
                 Schedule A Tour
-              </Link>
+              </NavLink>
             </li>
             <li className="menu-item">
-              <Link to="/" onClick={this.changeDisplay}>
+              <NavLink to="/blog" activeClassName="selected" onClick={this.changeDisplay}>
                 Blog
-              </Link>
+              </NavLink>
             </li>
             <li className="menu-item">
-              <Link to="/" onClick={this.changeDisplay}>
+              <NavLink to="/appy" activeClassName="selected" onClick={this.changeDisplay}>
                 Apply
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
