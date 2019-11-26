@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Testimonials from "./Testimonials";
 
 export default function SuccessStories(props) {
-  
+
   return (
     <div>
       <div className="text-align-center">

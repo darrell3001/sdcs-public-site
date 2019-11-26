@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import ClassScheduleInfo from "./Blocks/ClassScheduleInfo";
 import ClassBanner from "./Blocks/ClassBanner";
-import OurFrontEndProgram from "./Blocks/OurFrontEndProgram";
-import MichaelQuote from "./Blocks/MichaelQuote";
+import LearnByCoding from "./Blocks/LearnByCoding";
 import SuccessStories from "./Blocks/SuccessStories";
 import UnionTribune from "./Blocks/UnionTribune";
 import ReadyToBeginBanner from "./Blocks/ReadyToBeginBanner";
+import LeadInstructor from "./Blocks/LeadInstructor";
 
 export default class AboutUs extends Component {
   constructor(props) {
@@ -20,12 +19,11 @@ export default class AboutUs extends Component {
       <div className="Flexstart">
         <ClassBanner />
         <div className="spacer-sm"></div>
-        <OurFrontEndProgram />
-        <MichaelQuote />
+        <LearnByCoding/>
         <div className="spacer-md"></div>
-        <ClassScheduleInfo />
+        <LeadInstructor/>
         <div className="spacer-md"></div>
-        <SuccessStories testimonialLength={this.testimonialLength}/>
+        <SuccessStories testimonialLength={this.state.testimonialLength}/>
         <div className="spacer-sm"></div>
         <UnionTribune/>
         <div className="spacer-sm"></div>

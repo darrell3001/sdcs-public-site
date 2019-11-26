@@ -389,6 +389,13 @@ body {
     margin-bottom: 30px;
   }
 }
+.lead-instructor {
+  background: rgb(84, 1, 0);
+  color: rgb(215, 165, 43);
+  padding: 0 50px 0 100px;
+  font-size: 36px;
+
+}
 
 .accent-border:after {
   content: " ";
@@ -418,6 +425,9 @@ body {
 .margin-auto {
   margin: auto;
 }
+.margin-60 {
+  margin: 60px;
+}
 
 .rm-top-padding {
   padding: 0 2em 2em 2em;
@@ -425,6 +435,9 @@ body {
 
 .add-top-padding {
   padding-bottom: 2em;
+}
+.add-bottom-em {
+  margin-bottom: 1em;
 }
 
 .icon-fixture {
@@ -439,6 +452,9 @@ body {
 
 .font-size-lg {
   font-size: 25px;
+}
+.font-size-xl {
+  font-size: 32px;
 }
 .emphasised-text {
   color: $theme-color-contrast;
@@ -666,13 +682,17 @@ h4 {
   }
 }
 
-@media only screen and (max-width: 1075px) {
+@media only screen and (max-width: 1100px) {
   .media1075px-none {
     display: none;
   }
 
   .media1075px {
     display: inline-flex;
+  }
+  .lead-instructor {
+    padding: 0 25px 0 50px;
+    font-size: 28px;
   }
 }
 
@@ -699,9 +719,18 @@ h4 {
       }
     }
   }
+  .lead-instructor {
+    padding: 10px 25px;
+    margin: 10px;
+    font-size: 28px;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 499px) {
+  .learn-by-coding {
+    margin: 60px 20px;
+  };
   .media1075px {
     display: inline-flex;
 
@@ -718,6 +747,12 @@ h4 {
     & .column {
       width: auto;
     }
+  }
+  .lead-instructor {
+    padding: 10px 10px;
+    margin: 0px;
+    font-size: 24px;
+    flex-direction: column;
   }
 }
 
