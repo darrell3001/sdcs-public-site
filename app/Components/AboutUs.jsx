@@ -5,6 +5,7 @@ import SuccessStories from "./Blocks/SuccessStories";
 import UnionTribune from "./Blocks/UnionTribune";
 import ReadyToBeginBanner from "./Blocks/ReadyToBeginBanner";
 import LeadInstructor from "./Blocks/LeadInstructor";
+import DoYouStill from "./Blocks/DoYouStill";
 
 export default class AboutUs extends Component {
   constructor(props) {
@@ -28,6 +29,7 @@ export default class AboutUs extends Component {
         <UnionTribune/>
         <div className="spacer-sm"></div>
         <ReadyToBeginBanner/>
+        <DoYouStill/>
         <div className="spacer-lg"></div>
         <div className="spacer-sm"></div>
       </div>
