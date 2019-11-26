@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import importedComponent from "react-imported-component";
 import { Helmet } from "react-helmet";
 import { Switch, Route, Redirect } from "react-router-dom";
 
@@ -9,8 +8,6 @@ import HelloWorld from "./HelloWorld";
 import Flexstart from "./components/Flexstart";
 
 import "./css/styles.scss";
-
-const HelloWorld2 = importedComponent(() => import("./HelloWorld2"));
 
 export default class App extends Component {
   constructor(props) {
@@ -37,7 +34,6 @@ export default class App extends Component {
           <div style={{ display: this.state.display }} className="spacer-header"></div>
           <Switch>
             <Route exact path="/" component={HelloWorld} />
-            <Route path="/codeSplit" component={HelloWorld2} />
             <Route path="/flexstart" render={ () => <Flexstart removeHeaderFooter={this.removeHeaderFooter}/> }/>
             <Redirect to="/"/>
           </Switch>
