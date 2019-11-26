@@ -34,7 +34,6 @@ export default class App extends Component {
           <div style={{ display: this.state.display }} className="spacer-header"></div>
           <Switch>
             <Route exact path="/" component={AboutUs} />
-            <Route path="/AboutUs" component={AboutUs} />
             <Route path="/flexstart" render={ () => <Flexstart removeHeaderFooter={this.removeHeaderFooter}/> }/>
             <Redirect to="/flexstart"/>
           </Switch>

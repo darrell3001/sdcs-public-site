@@ -15,7 +15,7 @@ export default function SuccessStories(props) {
       <div className="spacer-sm"></div>
       <div className="testimonial-block-wrapper flex-row-center">
         {Testimonials.slice(0, props.testimonialLength).map((test, i) => (
-          <div className="testimonial-block flex-row-start shadow2" key={i}>
+          <div className="testimonial-block flex-row-start" key={i}>
             <div className="testimonial-by flex-row-start">
               <img className="shadow" src={test.img} alt=":)"></img>
               <div className="inline">

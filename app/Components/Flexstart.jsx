@@ -28,7 +28,7 @@ export default class Flexstart extends Component {
         <div className="spacer-md"></div>
         <ClassScheduleInfo />
         <div className="spacer-md"></div>
-        <SuccessStories />
+        <SuccessStories testimonialLength={this.testimonialLength}/>
         <div className="spacer-sm"></div>
         <NeedMoreInfo />
         <div className="spacer-sm"></div>
