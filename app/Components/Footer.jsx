@@ -28,7 +28,7 @@ export default class Footer extends Component {
             <a href="https://www.facebook.com/sandiegocodeschool/" target="_blank" rel="noopener noreferrer">
               <img src="/img/facebook.png" alt="Facebook Logo" />
             </a>
-            <a href="https://instagram.com/sdcs_io" target="_blank" rel="noopener noreferer">
+            <a href="https://instagram.com/sdcs_io" target="_blank" rel="noopener noreferrer">
               <img src="/img/instagram.png" alt="Instagram Logo" />
             </a>
             <a href="https://twitter.com/sdcs_io" target="_blank" rel="noopener noreferrer">
