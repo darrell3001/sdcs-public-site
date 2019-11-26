@@ -242,7 +242,6 @@ body {
       height: 80px;
       border-radius: 50%;
       margin: 10px 40px;
-      
     }
   }
 }
@@ -269,7 +268,7 @@ body {
   text-align: left;
   line-height: 150%;
   letter-spacing: -0.5px;
-  h2 {    
+  h2 {
     margin: 80px 0 16px 0;
   }
 }
@@ -392,9 +391,8 @@ body {
 .lead-instructor {
   background: rgb(84, 1, 0);
   color: rgb(215, 165, 43);
-  padding: 0 50px 0 100px;
+  padding: 20px 50px 0 100px;
   font-size: 36px;
-
 }
 
 .questions {
@@ -671,6 +669,53 @@ h4 {
   display: none;
 }
 
+@media only screen and (max-width: 1100px) {
+  .media1075px-none {
+    display: none;
+  }
+  .media1075px {
+    display: inline-flex;
+  }
+  .lead-instructor {
+    padding: 25px 25px 25px 50px;
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .questions {
+    margin: 20px;
+    flex-direction: column;
+  }
+  .testimonial-block {
+    justify-content: center;
+    flex-direction: column;
+    background-color: $theme-color-testimonial-box;
+    margin: 10px 10px;
+
+    .testimonial-bubble {
+      color: $talk-bubble-font;
+      width: auto;
+      padding: 20px;
+      text-align: left;
+      line-height: 150%;
+      letter-spacing: -0.5px;
+    }
+
+    .testimonial-by {
+      img {
+        margin: 10px 40px 10px 10px;
+      }
+    }
+  }
+  .lead-instructor {
+    padding: 25px 25px;
+    margin: 10px;
+    font-size: 28px;
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 525px) {
   .image-block {
     margin-top: 0px;
@@ -698,54 +743,6 @@ h4 {
   }
 }
 
-@media only screen and (max-width: 1100px) {
-  .media1075px-none {
-    display: none;
-  }
-  .media1075px {
-    display: inline-flex;
-  }
-  .lead-instructor {
-    padding: 0 25px 0 50px;
-    font-size: 28px;
-  }
-}
-
-@media only screen and (max-width: 775px) {
-  .questions {
-    margin: 20px;
-    flex-direction: column;
-  }
-  .testimonial-block {
-    justify-content: center;
-    flex-direction: column;
-    background-color: $theme-color-testimonial-box;
-    margin: 10px 10px;
-  
-    .testimonial-bubble {
-      color: $talk-bubble-font;
-      width: auto;
-      padding: 20px;
-      text-align: left;
-      line-height: 150%;
-      letter-spacing: -0.5px;
-    }
-  
-    .testimonial-by {
-      img {
-        margin: 10px 40px 10px 10px;
-        
-      }
-    }
-  }
-  .lead-instructor {
-    padding: 10px 25px;
-    margin: 10px;
-    font-size: 28px;
-    flex-direction: column;
-  }
-}
-
 @media only screen and (max-width: 499px) {
   .questions {
     margin: 20px;
@@ -763,7 +760,7 @@ h4 {
   }
   .learn-by-coding {
     margin: 20px;
-  };
+  }
   .media1075px {
     display: inline-flex;
 
@@ -786,6 +783,9 @@ h4 {
     margin: 0px;
     font-size: 24px;
     flex-direction: column;
+    img {
+      width: 200px;
+    }
   }
 }
 
@@ -806,4 +806,3 @@ h4 {
     }
   }
 }
-

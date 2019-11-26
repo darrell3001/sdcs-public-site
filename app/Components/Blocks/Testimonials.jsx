@@ -88,7 +88,7 @@ const products = [
     testimonial:
       "Studying and coding under Michael’s direction was a great experience. You quickly learn through his training and through your own job search that to become a coder requires a commitment to lifelong learning. In his intense bootcamp you get a firm grasp of the MERN stack in a simulated work environment, but more importantly, you learn how to continue the learning process independently after graduation. This invaluable skill will provide you the confidence to traverse an ever-changing tech industry.",
     title: "Software Customer Support Specialist @ ClinicSource",
-    img: "/img/testimonials/zach-scheck.jpg"
+    img: "/img/testimonials/alex-martinez.jpg"
   },
   {
     name: "Alex Black",

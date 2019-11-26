@@ -25,16 +25,16 @@ export default class Footer extends Component {
           </div>          
           <div className="footer-seperator">|</div>
           <div>
-            <a href="https://www.facebook.com/sandiegocodeschool/" target="_blank" rel="noopener noreffer">
+            <a href="https://www.facebook.com/sandiegocodeschool/" target="_blank" rel="noopener noreferrer">
               <img src="/img/facebook.png" alt="Facebook Logo" />
             </a>
-            <a href="https://instagram.com/sdcs_io" target="_blank" rel="noopener noreffer">
+            <a href="https://instagram.com/sdcs_io" target="_blank" rel="noopener noreferer">
               <img src="/img/instagram.png" alt="Instagram Logo" />
             </a>
-            <a href="https://twitter.com/sdcs_io" target="_blank" rel="noopener noreffer">
+            <a href="https://twitter.com/sdcs_io" target="_blank" rel="noopener noreferrer">
               <img src="/img/twitter.png" alt="Twitter Logo" />
             </a>
-            <a href="https://www.linkedin.com/company/sandiegocodeschool/about/" target="_blank" rel="noopener noreffer">
+            <a href="https://www.linkedin.com/company/sandiegocodeschool/about/" target="_blank" rel="noopener noreferrer">
               <img src="/img/linkedin.png" alt="Linkedin Logo" />
             </a>
           </div>

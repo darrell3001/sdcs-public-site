@@ -19,19 +19,17 @@ export default class AboutUs extends Component {
     return (
       <div className="Flexstart">
         <ClassBanner />
-        <div className="spacer-sm"></div>
-        <LearnByCoding/>
+        <LearnByCoding />
+        <LeadInstructor />
         <div className="spacer-md"></div>
-        <LeadInstructor/>
+        <SuccessStories testimonialLength={this.state.testimonialLength} />
         <div className="spacer-md"></div>
-        <SuccessStories testimonialLength={this.state.testimonialLength}/>
+        <UnionTribune />
+        <div className="spacer-md"></div>
+        <ReadyToBeginBanner />
+        <DoYouStill />
         <div className="spacer-sm"></div>
-        <UnionTribune/>
-        <div className="spacer-sm"></div>
-        <ReadyToBeginBanner/>
-        <DoYouStill/>
         <div className="spacer-lg"></div>
-        <div className="spacer-sm"></div>
       </div>
     );
   }
