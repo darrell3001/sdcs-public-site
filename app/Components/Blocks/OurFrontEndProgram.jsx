@@ -8,7 +8,7 @@ export default function OurFrontEndProgram() {
       </div>
       <div className="card-block flex-wrap">
         <div className="scale card-bubble text-align-center shadow">
-          <div className="talk-text rm-top-padding text-align-center">
+          <div className="card-text rm-top-padding text-align-center">
             <div className="bookmark">
               <div className="circle-center flex-center shadow">
                 <img
@@ -18,7 +18,7 @@ export default function OurFrontEndProgram() {
                 ></img>
               </div>
             </div>
-            <h2 className="block-pad-top-xs">
+            <h2 className="">
               Intro to Web <span className="block"> Development</span>
             </h2>
             <p className="rm-browser-margin">
@@ -30,7 +30,7 @@ export default function OurFrontEndProgram() {
         </div>
 
         <div className="scale card-bubble text-align-center shadow">
-          <div className="talk-text rm-top-padding text-align-center">
+          <div className="card-text rm-top-padding text-align-center">
             <div className="bookmark">
               <div className="circle-center flex-center shadow">
                 <img
@@ -52,7 +52,7 @@ export default function OurFrontEndProgram() {
         </div>
 
         <div className="scale card-bubble text-align-center shadow">
-          <div className="talk-text rm-top-padding text-align-center">
+          <div className="card-text rm-top-padding text-align-center">
             <div className="bookmark">
               <div className="circle-center flex-center shadow">
                 <img
@@ -68,7 +68,7 @@ export default function OurFrontEndProgram() {
             <p className="rm-browser-margin">
               Complete a final project for your portfolio via an internship with
               a local company. Earn real world experience by building product
-              and adding value for a local San Diego business.{" "}
+              and adding value for a local San Diego business.
             </p>
           </div>
         </div>

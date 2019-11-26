@@ -34,7 +34,7 @@
           margin: 0px 10px;
           list-style: none;
           text-transform: uppercase;
-          font-family: $header-font;
+          font-family: $barlow;
           font-size: larger;
           a {
             text-decoration: none;
@@ -64,7 +64,7 @@
     background: $theme-color-primary;
     text-align: center;
     .menu-item {
-      font-family: $header-font;
+      font-family: $barlow;
       font-size: xx-large;
       list-style: none;
       margin: 10px 0;

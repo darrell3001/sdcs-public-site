@@ -10,7 +10,9 @@ import NeedMoreInfo from "./Blocks/NeedMoreInfo";
 export default class Flexstart extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      testimonialLength: 6
+    };
   }
 
   componentDidMount() {
@@ -26,7 +28,7 @@ export default class Flexstart extends Component {
         <div className="spacer-md"></div>
         <ClassScheduleInfo />
         <div className="spacer-md"></div>
-        <SuccessStories />
+        <SuccessStories testimonialLength={this.state.testimonialLength}/>
         <div className="spacer-sm"></div>
         <NeedMoreInfo />
         <div className="spacer-sm"></div>
