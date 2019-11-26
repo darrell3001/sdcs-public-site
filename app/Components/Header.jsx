@@ -24,7 +24,9 @@ export default class Header extends Component {
       <div className="header" style={{ display: this.props.display }}>
         <div className="header-navbar-container">
           <div className="header-logo">
-            <img src="/img/sdcs-logo.png" alt="SDCS LOGO" />
+            <a href="/">
+              <img src="/img/sdcs-logo.png" alt="SDCS LOGO" />
+            </a>
           </div>
           <div className="header-navbar">
             <ul>
